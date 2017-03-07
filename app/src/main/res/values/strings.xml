@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple Object Creator</string>
+    <string name="create_title">Create your object</string>
+    <string name="title_activity_creator">CreatorActivity</string>
+    <string name="start_info">To start creating your own awesome Simple Object click on the button below</string>
+    <string name="toolbar_instructions">From options below select what kind of object you want to create. When you are done just tap button to see result.</string>
+</resources>
