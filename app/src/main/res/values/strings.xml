@@ -4,4 +4,8 @@
     <string name="title_activity_creator">CreatorActivity</string>
     <string name="start_info">To start creating your own awesome Simple Object click on the button below</string>
     <string name="toolbar_instructions">From options below select what kind of object you want to create. When you are done just tap button to see result.</string>
+    <string name="question1">What kind of shape your object should have?</string>
+    <string name="question2">How big should it be?</string>
+    <string name="question3">What color do you want it to have?</string>
+    <string name="ready">Ready?</string>
 </resources>

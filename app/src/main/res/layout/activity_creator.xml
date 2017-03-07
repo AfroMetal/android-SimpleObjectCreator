@@ -70,7 +70,7 @@
                     android:layout_weight="1"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="16sp"
-                    android:text="What kind of shape your object should have?" />
+                    android:text="@string/question1" />
 
                 <RadioButton
                     android:id="@+id/rb_circle"
@@ -124,7 +124,7 @@
                     android:layout_weight="1"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="16sp"
-                    android:text="How big should it be?" />
+                    android:text="@string/question2" />
 
                 <RadioButton
                     android:id="@+id/rb_small"
@@ -157,7 +157,7 @@
                     android:layout_weight="1"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="16sp"
-                    android:text="What color do you want it to have?" />
+                    android:text="@string/question3" />
 
                 <RadioButton
                     android:id="@+id/rb_red"
@@ -199,7 +199,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="20sp"
                 android:textAlignment="center"
-                android:text="Ready?"/>
+                android:text="@string/ready"/>
 
             <Button
                 android:id="@+id/b_create"
@@ -211,7 +211,7 @@
                 app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="@dimen/fab_margin"
                 app:layout_constraintTop_toBottomOf="@+id/tv_object_description"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="@dimen/fab_margin"
                 app:layout_constraintBottom_toBottomOf="parent" />
 
         </android.support.constraint.ConstraintLayout>
